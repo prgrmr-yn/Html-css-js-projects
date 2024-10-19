@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(260deg, #99dcdc, #695edb);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 1px  4px 3px rgba(46, 19, 180, 0.4);
+
+}
+
+.container{
+  min-height: 97vh;
+  margin: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(260deg, #b9e4e4, #948de8)
+}
+
+
+.search-box{
+  display: flex;
+  margin: 2rem 1rem;
+  gap: 1rem;
+}
+
+.search-box *{
+  height: 3rem;
+  background: white;
+  border: none;
+}
+
+#search-input{
+  flex: 1;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+#search-btn{
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#search-icon{
+  transform: scale(0.4);
+}
+
+.weather-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temperature{
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.temperature-number{
+  font-size: 2.5rem;
+}
+
+.temperature-city{
+  font-size: 2rem;
+}
+
+.temperature-details{
+  flex: 7;
+  display: flex;
+}
+
+
+.temperature-details-inner-container{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.numbers{
+  font-size: 2.5rem;
+}
+
+.names{
+  font-size: 1.5rem;
+}
+
+
+.temperature-icons{
+  width: 5rem;
+}

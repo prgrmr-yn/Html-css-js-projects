@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather app</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="inner-container search-box">
+      <input type="text" name="search-input" id="search-input">
+      <button id="search-btn">
+        <img src="./images/search.png" alt="search icon" id="search-icon">
+      </button>
+    </div>
+
+    <div class="inner-container weather-icon">
+      <img  id="realtime-weather-icon">
+    </div>
+
+    <div class="inner-container temperature">
+      <div class="temperature-container temperature-number" id="realtime-temperature"></div>
+      <div class="temperature-container temperature-city" id="realtime-city-name"></div>
+    </div>
+
+    <div class="inner-container temperature-details">
+      <div class="temperature-details-inner-container humidity">
+        <img src="./images/humidity.png" alt="humidity icon" class="temperature-icons">
+        <div class="humidity-container">
+          <div class="humidity-number numbers" id="realtime-humidity"></div>
+          <div class="humidity-name names">Humidity</div>
+        </div>
+      </div>
+      <div class="temperature-details-inner-container wind-speed">
+        <img src="./images/winds.png" alt="wind icon" class="temperature-icons">
+        <div class="wind-speed-container">
+          <div class="wind-speed-number numbers" id="realtime-wind-speed"></div>
+          <div class="wind-speed-name names"> Wind speed</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
